@@ -58,7 +58,7 @@ Clone this repository to your desired folder:
 
 Example commands:
 
-git clone https://github.com/afsheen96/Portfolio.git
+git clone https://github.com/sharminkhan0/Portfolio-with-Bootstrap.git
 
 # Install
   please first install the node package files
