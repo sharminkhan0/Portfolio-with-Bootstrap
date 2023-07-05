@@ -26,13 +26,13 @@ This is my second responsive portfolio project for honing my Github professional
 
 # 🛠 Built With
 
- #Tech Stack
+ Tech Stack
  
-  #Client
-    HTML
-    CSS
-    JavaScript
-    Bootstrip
+#Client
+    .HTML
+    .CSS
+    .JavaScript
+    .Bootstrip
 
 # Key Features
 Add the linter for the project to fix the errors and clean the codeok_hand
