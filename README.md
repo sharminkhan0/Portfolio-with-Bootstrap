@@ -26,8 +26,9 @@ This is my second responsive portfolio project for honing my Github professional
 
 # 🛠 Built With
 
- # Tech Stack
-  Client
+ #Tech Stack
+ 
+  #Client
     HTML
     CSS
     JavaScript
