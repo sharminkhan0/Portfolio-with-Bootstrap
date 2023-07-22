@@ -1,0 +1,38 @@
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+   /* Background Color */ 
+   --primary-color: #ff183f;
+   --secondary-color: #22102b;
+   --bg-dark-blue: #1a0920;
+   --bg-white: #ffffff;
+   --gray-color: #c6d8d3bf;
+   --gradient-color: linear-gradient(-224deg, var(--primary-color) 0, #a333ff 100%);
+   --gradient-text: linear-gradient(120deg, #1cabfe 20.69%, #ad36fd 50.19%, var(--primary-color) 79.69%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--primary-color)', endColorstr='var(--secondary-color)', GradientType=1);
+
+
+/* Text Color */
+--primary-font: 'Poppins', sans-serif;
+--primary-text: #ff183f;
+--text-gray: #c6d8d3bf;
+--text-white: #ffffff;
+
+}
+
+body {
+    font-family: var(--primary-font);
+    background-color: var(--secondary-color);
+}
+
+a {
+    text-decoration: none;
+}
