@@ -1,4 +1,3 @@
-/* General */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -8,21 +7,20 @@
 }
 
 :root {
-  /* Background Color */ 
+  /* Background Color */
   --primary-color: #ff183f;
   --secondary-color: #22102b;
   --bg-dark-blue: #1a0920;
-  --bg-white: #ffffff;
+  --bg-white: #fff;
   --gray-color: #c6d8d3bf;
   --gradient-color: linear-gradient(-224deg, var(--primary-color) 0, #a333ff 100%);
   --gradient-text: linear-gradient(120deg, #1cabfe 20.69%, #ad36fd 50.19%, var(--primary-color) 79.69%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--primary-color)', endColorstr='var(--secondary-color)', GradientType=1);
 
-/* Text Color */
---primary-font: 'Poppins', sans-serif;
---primary-text: #ff183f;
---text-gray: #c6d8d3bf;
---text-white: #ffffff;
+  /* Text Color */
+  --primary-font: 'Poppins', sans-serif;
+  --primary-text: #ff183f;
+  --text-gray: #c6d8d3bf;
+  --text-white: #fff;
 }
 
 html,
@@ -35,7 +33,7 @@ a {
   text-decoration: none;
 }
 
-/* 1 Common Custom CSS */ 
+/* 1 Common Custom CSS */
 
 ::-webkit-scrollbar {
   width: 6px;
@@ -62,7 +60,7 @@ section {
 .main-btn {
   display: inline-block;
   border-radius: 50px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   padding: 10px 27px;
   background-color: transparent;
   border: 2px solid var(--gray-color);
@@ -97,28 +95,28 @@ h1 span {
   color: var(--primary-color);
 }
 
-h2{
+h2 {
   font-size: 50px;
   line-height: 1.3;
   font-weight: 600;
   color: var(--text-white);
-  margin-bottom: 15px;  
+  margin-bottom: 15px;
 }
 
-h3{
+h3 {
   font-size: 20px;
   font-weight: 600;
   color: var(--text-white);
-  margin-bottom: 19px;  
+  margin-bottom: 19px;
 }
 
-h6{
+h6 {
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 4px;
   display: block;
   color: var(--text-gray);
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 
 p {
@@ -137,27 +135,22 @@ p {
   font-size: 16px;
   margin-bottom: 12px;
   background: var(--gradient-color);
-  -webkit-background-clip: text;
+  -webkit-background-composite: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* 2 Navbar */ 
+/* 2 Navbar */
 
 .header .navbar {
   padding: 15px 0;
-  -wibkit-transition: all .3s linear;
-  -o-transition: all .3s linear;
-  transition: all .3s linear;
+  -wibkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
-
 
 .header .brand-logo img {
   max-width: 120px;
   height: auto;
-}
-
-.header .brand-logo img:hover {
-   transform: scaleX(-7px);
 }
 
 .header .toggler {
@@ -194,16 +187,16 @@ p {
 }
 
 .header .nav-item .nav-link.active::after,
-.header .nav-item .nav-link:hover:after {
+.header .nav-item .nav-link:hover::after {
   width: 100%;
-} 
+}
 
 .header .nav-item .nav-link.active,
 .header .nav-item .nav-link:hover {
   color: var(--text-white);
   transform: translateX(4px);
   font-weight: 700;
-} 
+}
 
 .header-scrolled {
   position: fixed;
@@ -227,10 +220,8 @@ p {
   min-height: 650px;
   background-image: url('../Images/background4.png');
   background-repeat: no-repeat;
-  background-position: center-center;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   padding: 200px 0 100px 0;
 }
-
-
