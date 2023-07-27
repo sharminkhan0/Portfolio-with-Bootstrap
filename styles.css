@@ -35,7 +35,7 @@ a {
   text-decoration: none;
 }
 
-/* 1 Custom CSS */ 
+/* 1 Common Custom CSS */ 
 
 ::-webkit-scrollbar {
   width: 6px;
@@ -136,3 +136,62 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* 2 Navbar */ 
+
+.header .navbar {
+    padding: 15px 0;
+    -wibkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+
+.header_ .brand-logo img {
+    max-width: 120px;
+    height: auto;
+}
+
+.header .toggler {
+    border: 0;
+    color: var(--gray-color);
+    line-height: 2;
+}
+
+.header .toggler:focus {
+    box-shadow: none;
+}
+
+.header .nav-item {
+    margin: 0 10px;
+}
+
+.header .nav-item .nav-link {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-gray);
+    display: inline-block;
+}
+
+.header .nav-item .nav-link::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: 0.3s;
+    bottom: 0;
+}
+
+.header .nav-item .nav-link.active::after,
+.header .nav-item .nav-link:hover:after {
+    width: 100%;
+} 
+
+.header .nav-item .nav-link.active,
+.header .nav-item .nav-link:hover {
+    color: var(--text-white);
+} 
+
