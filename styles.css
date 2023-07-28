@@ -7,17 +7,14 @@
 }
 
 :root {
-  /* Background Color */
-  --primary-color: #ff183f;
+  --primary-color: #ff183f;/* Background Color */
   --secondary-color: #22102b;
   --bg-dark-blue: #1a0920;
   --bg-white: #fff;
   --gray-color: #c6d8d3bf;
   --gradient-color: linear-gradient(-224deg, var(--primary-color) 0, #a333ff 100%);
   --gradient-text: linear-gradient(120deg, #1cabfe 20.69%, #ad36fd 50.19%, var(--primary-color) 79.69%);
-
-  /* Text Color */
-  --primary-font: 'Poppins', sans-serif;
+  --primary-font: 'Poppins', sans-serif; /* Text Color */
   --primary-text: #ff183f;
   --text-gray: #c6d8d3bf;
   --text-white: #fff;
@@ -35,17 +32,15 @@ a {
 
 /* 1 Common Custom CSS */
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 6px;
 }
-
 ::-webkit-scrollbar-track {
   background: var(--bg-dark-blue);
 }
-
 ::-webkit-scrollbar-thumb {
   background: var(--primary-color);
-}
+} */
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-s.main-btnpin-button {
@@ -77,7 +72,6 @@ section {
   border-color: var(--primary-color);
   color: var(--text-white);
   font-weight: 700;
-  transform: rotateY('angle 185deg');
   transform: translateY(-7px);
   -webkit-box-shadow: 0 7px 9px 0 rgba(125, 5, 93, 0.7);
   box-shadow: 0 8px 12px 0 rgba(245, 186, 149, 0.5);
@@ -135,7 +129,6 @@ p {
   font-size: 16px;
   margin-bottom: 12px;
   background: var(--gradient-color);
-  -webkit-background-composite: text;
   -webkit-text-fill-color: transparent;
 }
 
