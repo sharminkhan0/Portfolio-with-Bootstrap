@@ -238,3 +238,33 @@ p {
 .about-wrapper ul li .nav-link.active {
   background-color: var(--primary-color);
 }
+
+.about-wrapper .single-progress{
+  margin-top: 26px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-wrapper .single-progress .progress {
+  height: 4px;
+  border-radius: 4px;
+  box-shadow: none;
+  background-color: var(--bg-white);
+  overflow: visible;
+}
+
+.about-wrapper .single-progress .progress-bar {
+  background-image: var(--gradient-color);
+}
+
+.about-wrapper .single-progress h6{
+  text-align: left;
+}
+
+.about-wrapper .single-progress .label {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: var(--text-gray);
+  font-size: 15px;
+}
