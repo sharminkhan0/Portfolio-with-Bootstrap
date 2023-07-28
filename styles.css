@@ -268,3 +268,17 @@ p {
   color: var(--text-gray);
   font-size: 15px;
 }
+
+.about-wrapper .tab-pane li{
+  color: var(--gray-color);
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  list-style: none;
+}
+
+.about-wrapper .tab-pane li a {
+  font-weight: 500;
+  display: block;
+  color: var(--text-gray);
+}
