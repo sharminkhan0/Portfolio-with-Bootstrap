@@ -218,3 +218,23 @@ p {
   background-attachment: fixed;
   padding: 200px 0 100px 0;
 }
+
+/*  4 About  */
+.about-wrapper ul.nav-pills {
+  border: 1px solid var(--gray-color);
+  border-radius: 50px;
+}
+
+.about-wrapper ul li .nav-link {
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.45s cubic-bezier(0,0,0.2,1);
+  display: inline-block;
+  color: var(--text-gray);
+  border: 0;
+}
+
+.about-wrapper ul li .nav-link.active {
+  background-color: var(--primary-color);
+}
