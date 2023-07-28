@@ -32,7 +32,7 @@ a {
 
 /* 1 Common Custom CSS */
 
-/* ::-webkit-scrollbar {
+ ::-webkit-scrollbar {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
@@ -40,7 +40,7 @@ a {
 }
 ::-webkit-scrollbar-thumb {
   background: var(--primary-color);
-} */
+} 
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-s.main-btnpin-button {
@@ -129,6 +129,7 @@ p {
   font-size: 16px;
   margin-bottom: 12px;
   background: var(--gradient-color);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
