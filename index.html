@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio with Bootstrap</title>
-     <!-------Favicon------->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio with Bootstrap</title>
+  <!-------Favicon------->
 
   <link rel="icon" type="image/png" href="images/favicon.png">
 
@@ -15,7 +16,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />">
-    <script src="https://kit.fontawesome.com/39260e1d40.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/39260e1d40.js" crossorigin="anonymous"></script>
 
 
   <!------ Custom File's link ------->
@@ -24,50 +25,51 @@
   <link rel="stylesheet" href="responsive.css">
 
 </head>
+
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
 
-    <!------Navbar section------->
-  
-    <header class="header">
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-          <a class="brand-logo" href="#">
-            <img src="Images/logo (2).png" class="img-fluid" alt="logo">
-          </a>
-          <button class="toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <!-- <span class="navbar-toggler-icon"></span> -->
-            <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav menu-navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-              <li class="nav-item mt-3 mt-lg-0">
-                <a class="main-btn" href="#contact">Hire me</a>
-              </li>
-  
-            </ul>
-          </div>
+  <!------Navbar section------->
+
+  <header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="brand-logo" href="#">
+          <img src="Images/logo (2).png" class="img-fluid" alt="logo">
+        </a>
+        <button class="toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item mt-3 mt-lg-0">
+              <a class="main-btn" href="#contact">Hire me</a>
+            </li>
+
+          </ul>
         </div>
-      </nav>
-    </header>
-  
-    <!------Navbar section exit------->
-    <!------Banner section------->
+      </div>
+    </nav>
+  </header>
+
+  <!------Navbar section exit------->
+  <!------Banner section------->
 
   <section id="home" class="banner">
     <div class="container">
@@ -136,6 +138,145 @@
 
             <div class="tab-content" id="pills-tabContent">
 
-    
+              <!-------Skills section------>
+
+              <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                <div class="single-progress">
+                  <h6>App Designing</h6>
+                  <div class="progress">
+                    <div class="progress" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                    <div class="progress-bar progress-bar-plain bg-success" style="width: 95%"></div>
+                  </div>
+                  <span class="label">95%</span>
+                </div>
+
+                <div class="single-progress">
+                  <h6>Building Android/ios apps</h6>
+                  <div class="progress">
+                    <div class="progress" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                    <div class="progress-bar progress-bar-plain bg-success" style="width: 85%"></div>
+                  </div>
+                  <span class="label">85%</span>
+                </div>
+
+                <div class="single-progress">
+                  <h6>UI/UX</h6>
+                  <div class="progress">
+                    <div class="progress" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                    <div class="progress-bar progress-bar-plain bg-success" style="width: 80%"></div>
+                  </div>
+                  <span class="label">80%</span>
+                </div>
+
+                <div class="single-progress">
+                  <h6>Web app Development</h6>
+                  <div class="progress">
+                    <div class="progress" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                    <div class="progress-bar progress-bar-plain bg-success" style="width: 85%"></div>
+                  </div>
+                  <span class="label">85%</span>
+                </div>
+              </div>
+
+              <!-------Skills section exit------>
+
+              <!-------Awards section------>
+
+              <div class="tab-pane fade" id="pills-award" role="tabpanel" aria-labelledby="pills-award-tab">
+                <ul class="text-start ps-0">
+                  <li>
+                    <a href="#">Awwards.com
+                      <span>- Winner</span></a> 2019 - 2020
+                  </li>
+                  <li>
+                    <a href="#">CSS Design Awards
+                      <span>- Winner</span></a> 2017 - 2018
+                  </li>
+
+                  <li>
+                    <a href="#">Design nominees
+                      <span>- site of the day</span></a> 2013 - 2014
+                  </li>
+
+                  <li>
+                    <a href="#">Awwards.com
+                      <span>- Winner</span></a> 2019 - 2020
+                  </li>
+
+                </ul>
+              </div>
+
+              <!-------Awards section exit------>
+
+              <!-------Experience section------>
+
+              <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
+                <ul class="text-start ps-0">
+                  <li>
+                    <a href="#">Wed Development, UIUX
+                      <span>- Freelancing</span></a> 2019 - Current
+                  </li>
+
+                  <li>
+                    <a href="#">Entrepreneur
+                      <span>- Online Business</span></a> 2014 - Current
+                  </li>
+
+                  <li>
+                    <a href="#">Operations Excutive
+                      <span>- Bureau Veritas (PLC) Bangladesh</span></a> 2008 - 2011
+                  </li>
+
+                  <li>
+                    <a href="#">Accounting Excutive
+                      <span>- Drug International Limited,Bangladesh</span></a> 2005 - 2008
+                  </li>
+                </ul>
+              </div>
+
+              <!-------Experience section exit------>
+
+              <!-------Education section------>
+
+              <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+                <ul class="text-start ps-0">
+                  <li>
+                    <a href="#">Wed Development Microverse
+                      <span>- Microverse, los Angeles, CA</span></a> Current
+                  </li>
+
+                  <li>
+                    <a href="#">Cyber Security and UI/UX
+                      <span>- Cisco, Australia </span></a> 2021 - 2022
+                  </li>
+
+                  <li>
+                    <a href="#">Leadership and Digital Marketing
+                      <span>- Cursera</span></a> 2019 - 2021
+                  </li>
+
+                  <li>
+                    <a href="#">MBA (Banking and Finance)
+                      <span>- IIUC,Bangladesh</span></a> 2009
+                  </li>
+                </ul>
+              </div>
+
+              <!-------Education section exit------>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------About section exit------->
+
+
 </body>
+
 </html>
