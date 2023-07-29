@@ -87,7 +87,7 @@ You can deploy your project using github free source.
 (back to top)
 
 #👥 Authors
-👤 Afsheen
+👤 Sharmin
 
   GitHub: @sharminkhan0
 👤 NoelLincoln
