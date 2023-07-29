@@ -291,3 +291,74 @@ p {
   display: block;
   color: var(--text-gray);
 }
+
+/* 5 Services  */
+.services .card {
+  background-color: var(--bg-dark-blue);
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transfrom 0.5s;
+  transition: transfrom 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+  box-shadow: 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+}
+
+.services .card .layer {
+  width: 93%;
+  height: 0%;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), 
+  var(--primary-color));
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+  margin-left: 15px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  
+}
+
+.layer h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--text-white);
+}
+
+.layer p {
+  color: var(--text-gray);
+}
+
+.layer a {
+  margin-top: 20px;
+  color: #ff004f;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.services .card:hover img {
+  transform: scale(1.1);
+}
+
+.services .card:hover .layer {
+  height: 96%;
+  background: var(--gradient-color);
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+    
