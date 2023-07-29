@@ -14,7 +14,7 @@
   --bg-white: #fff;
   --gray-color: #c6d8d3bf;
   --linear-gradient-2: linear-gradient(380deg, #650f69, #214d90, #6b97d8, hsl(225, 75%, 16%), #45035d);
-  --linear-gradient: -webkit-linear-gradient(-275deg,#03382f, #619489, #53aedf, #32815d, #032137);
+  --linear-gradient: -webkit-linear-gradient(-275deg, #03382f, #619489, #53aedf, #32815d, #032137);
   --gradient-color-2: linear-gradient(to right bottom, #090909, #141717, #999760, #000, #000);
   --gradient-color: linear-gradient(-224deg, var(--primary-color) 0, #a333ff 100%);
   --gradient-text: linear-gradient(120deg, #1cabfe 20.69%, #ad36fd 50.19%, var(--primary-color) 79.69%);
@@ -27,7 +27,7 @@
 html,
 body {
   font-family: var(--primary-font);
-  background-color: var(--secondary-color)
+  background-color: var(--secondary-color);
 }
 
 a {
@@ -36,15 +36,17 @@ a {
 
 /* 1 Common Custom CSS */
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 6px;
 }
+
 ::-webkit-scrollbar-track {
   background: var(--bg-dark-blue);
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--primary-color);
-} 
+}
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-s.main-btnpin-button {
@@ -152,6 +154,10 @@ p {
 }
 
 .header .toggler {
+  display: none;
+}
+
+.header .toggler {
   border: 0;
   color: var(--gray-color);
   line-height: 2;
@@ -229,6 +235,7 @@ p {
 .about {
   background: var(--linear-gradient-2);
 }
+
 .about ul.nav-pills {
   border: 1px solid var(--gray-color);
   border-radius: 50px;
@@ -238,7 +245,7 @@ p {
   border-radius: 50px;
   font-size: 15px;
   font-weight: 500;
-  transition: all 0.45s cubic-bezier(0,0,0.2,1);
+  transition: all 0.45s cubic-bezier(0, 0, 0.2, 1);
   display: inline-block;
   color: var(--text-gray);
   border: 0;
@@ -248,7 +255,7 @@ p {
   background-color: var(--primary-color);
 }
 
-.about .single-progress{
+.about .single-progress {
   margin-top: 26px;
   position: relative;
   overflow: hidden;
@@ -266,7 +273,7 @@ p {
   background-image: var(--gradient-color);
 }
 
-.about .single-progress h6{
+.about .single-progress h6 {
   text-align: left;
 }
 
@@ -278,7 +285,7 @@ p {
   font-size: 15px;
 }
 
-.about .tab-pane li{
+.about .tab-pane li {
   color: var(--gray-color);
   font-size: 16px;
   margin-bottom: 15px;
@@ -293,7 +300,7 @@ p {
 }
 
 /* 5 Services  */
-.services{
+.services {
   background: var(--bg-dark-blue);
 }
 
@@ -311,8 +318,12 @@ p {
 .services .card .layer {
   width: 93%;
   height: 0%;
-  background: linear-gradient(to top, rgba(0,0,0,0.8), 
-  var(--primary-color));
+  background:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      var(--primary-color)
+    );
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -327,7 +338,6 @@ p {
   text-align: center;
   font-size: 14px;
   transition: height 0.5s;
-  
 }
 
 .layer h3 {
@@ -364,14 +374,14 @@ p {
   opacity: 0.7;
   transform: scale(1.1);
 }
-    
+
 /*  6 Portfolio  */
 
 .portfolio {
   background: var(--secondary-color-2);
 }
 
-.portfolio .card{
+.portfolio .card {
   height: 100%;
   min-height: 350px;
   overflow: hidden;
@@ -406,11 +416,10 @@ p {
   font-size: 15px;
   font-weight: 400;
   padding: 10px 20px;
-} 
+}
 
 .contact .form-control:hover,
-.contact textarea:hover
-.contact .form-control:focus,
+.contact textarea:hover .contact .form-control:focus,
 .contact textarea:focus {
   border-color: var(--primary-color);
   color: var(--text-white);
@@ -449,8 +458,8 @@ p {
   color: var(--text-gray);
   text-align: center;
   border-radius: 100%;
-  -webkit-transition: all 0.3s cubic-bezier(0.645,0.045, 0.355, 1);
-  transition: all 0.3s cubic-bezier(0.645,0.045, 0.355, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .footer .social-icon a:hover {
@@ -459,7 +468,7 @@ p {
   color: var(--text-white);
   box-shadow: 0 10px 15px 0 rgb(0 0 0 / 10%);
   transform: translateY(-3px);
-} 
+}
 
 .footer .copyright-text p {
   font-size: 11px;
@@ -469,5 +478,3 @@ p {
 .footer .copyright-text a {
   color: var(--primary-color);
 }
-
-
