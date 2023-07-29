@@ -400,27 +400,74 @@ p {
 
 .contact .form-control,
 .contact textarea {
-    background-color: transparent;
-    border-color: var(--gray-color);
-    color: var(--text-gray);
-    font-size: 15px;
-    font-weight: 400;
-    padding: 10px 20px;
+  background-color: transparent;
+  border-color: var(--gray-color);
+  color: var(--text-gray);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 20px;
 } 
 
 .contact .form-control:hover,
 .contact textarea:hover
 .contact .form-control:focus,
 .contact textarea:focus {
-    border-color: var(--primary-color);
-    color: var(--text-white);
+  border-color: var(--primary-color);
+  color: var(--text-white);
 }
 
 .contact .call_details {
-    color: var(--text-white);
+  color: var(--text-white);
 }
 
 .contact .call_details a {
-    font-weight: 700;
-    color: var(--text-gray);
+  font-weight: 700;
+  color: var(--text-gray);
 }
+
+/*  8 Footer   */
+.footer {
+  background-color: var(--bg-dark-blue);
+  padding: 20px 0;
+}
+
+.footer .footer-logo img {
+  width: 100px;
+}
+
+.footer .social-icon li {
+  margin: 6px;
+}
+
+.footer .social-icon a {
+  width: 35px;
+  height: 35px;
+  line-height: 32px;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid var(--text-gray);
+  color: var(--text-gray);
+  text-align: center;
+  border-radius: 100%;
+  -webkit-transition: all 0.3s cubic-bezier(0.645,0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645,0.045, 0.355, 1);
+}
+
+.footer .social-icon a:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--text-white);
+  box-shadow: 0 10px 15px 0 rgb(0 0 0 / 10%);
+  transform: translateY(-3px);
+} 
+
+.footer .copyright-text p {
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.footer .copyright-text a {
+  color: var(--primary-color);
+}
+
+
