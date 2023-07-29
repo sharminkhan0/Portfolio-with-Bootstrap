@@ -8,7 +8,7 @@
 
 :root {
   --primary-color: #ff183f;/* Background Color */
-  --secondary-color: #22102b;
+  --secondary-color: #0e1525;
   --secondary-color-2: #000;
   --bg-dark-blue: #02062c;
   --bg-white: #fff;
@@ -27,7 +27,7 @@
 html,
 body {
   font-family: var(--primary-font);
-  background-color: var(--secondary-color-2)
+  background-color: var(--secondary-color)
 }
 
 a {
