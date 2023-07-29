@@ -9,9 +9,13 @@
 :root {
   --primary-color: #ff183f;/* Background Color */
   --secondary-color: #22102b;
-  --bg-dark-blue: #1a0920;
+  --secondary-color-2: #000;
+  --bg-dark-blue: #090b20;
   --bg-white: #fff;
   --gray-color: #c6d8d3bf;
+  --linear-gradient-2: linear-gradient(380deg, #650f69, #214d90, #6b97d8, hsl(225, 75%, 16%), #45035d);
+  --linear-gradient: -webkit-linear-gradient(-275deg,#03382f, #619489, #53aedf, #32815d, #032137);
+  --gradient-color-2: linear-gradient(to right bottom, #090909, #141717, #999760, #000, #000);
   --gradient-color: linear-gradient(-224deg, var(--primary-color) 0, #a333ff 100%);
   --gradient-text: linear-gradient(120deg, #1cabfe 20.69%, #ad36fd 50.19%, var(--primary-color) 79.69%);
   --primary-font: 'Poppins', sans-serif; /* Text Color */
@@ -23,7 +27,7 @@
 html,
 body {
   font-family: var(--primary-font);
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color-2)
 }
 
 a {
@@ -212,7 +216,8 @@ p {
   width: 100%;
   height: auto;
   min-height: 650px;
-  background-image: url('../Images/background4.png');
+  background: var(--gradient-color-2);
+  background: var(--linear-gradient);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -221,12 +226,15 @@ p {
 }
 
 /*  4 About  */
-.about-wrapper ul.nav-pills {
+.about {
+  background: var(--linear-gradient-2);
+}
+.about ul.nav-pills {
   border: 1px solid var(--gray-color);
   border-radius: 50px;
 }
 
-.about-wrapper ul li .nav-link {
+.about ul li .nav-link {
   border-radius: 50px;
   font-size: 15px;
   font-weight: 500;
@@ -236,17 +244,17 @@ p {
   border: 0;
 }
 
-.about-wrapper ul li .nav-link.active {
+.about ul li .nav-link.active {
   background-color: var(--primary-color);
 }
 
-.about-wrapper .single-progress{
+.about .single-progress{
   margin-top: 26px;
   position: relative;
   overflow: hidden;
 }
 
-.about-wrapper .single-progress .progress {
+.about .single-progress .progress {
   height: 4px;
   border-radius: 4px;
   box-shadow: none;
@@ -254,15 +262,15 @@ p {
   overflow: visible;
 }
 
-.about-wrapper .single-progress .progress-bar {
+.about .single-progress .progress-bar {
   background-image: var(--gradient-color);
 }
 
-.about-wrapper .single-progress h6{
+.about .single-progress h6{
   text-align: left;
 }
 
-.about-wrapper .single-progress .label {
+.about .single-progress .label {
   position: absolute;
   right: 0;
   top: 0;
@@ -270,7 +278,7 @@ p {
   font-size: 15px;
 }
 
-.about-wrapper .tab-pane li{
+.about .tab-pane li{
   color: var(--gray-color);
   font-size: 16px;
   margin-bottom: 15px;
@@ -278,7 +286,7 @@ p {
   list-style: none;
 }
 
-.about-wrapper .tab-pane li a {
+.about .tab-pane li a {
   font-weight: 500;
   display: block;
   color: var(--text-gray);
