@@ -10,7 +10,7 @@
   --primary-color: #ff183f;/* Background Color */
   --secondary-color: #22102b;
   --secondary-color-2: #000;
-  --bg-dark-blue: #090b20;
+  --bg-dark-blue: #02062c;
   --bg-white: #fff;
   --gray-color: #c6d8d3bf;
   --linear-gradient-2: linear-gradient(380deg, #650f69, #214d90, #6b97d8, hsl(225, 75%, 16%), #45035d);
@@ -360,5 +360,31 @@ p {
   opacity: 0.7;
   transform: scale(1.1);
 }
-
     
+/*  6 Portfolio  */
+
+.portfolio {
+  background: var(--bg-dark-blue);
+}
+
+.portfolio .card{
+  height: 100%;
+  min-height: 350px;
+  overflow: hidden;
+  border: 1px solid var(--text-white);
+  cursor: pointer;
+  box-shadow: 0 0 16px 4px var(--bg-dark-blue);
+}
+
+.portfolio .card span {
+  transition: background-position 5s ease-in-out 0s;
+  width: 100%;
+  height: 100%;
+  background-position: top center;
+  background-size: cover;
+}
+
+.portfolio .card:hover span {
+  background-position: bottom center;
+}
+
