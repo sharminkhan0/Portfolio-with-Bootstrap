@@ -1,0 +1,89 @@
+@media (max-width: 991px) {
+  /*   Custom CSS   */
+
+  section {
+    padding: 20px 0;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .header .toggler {
+    display: block;
+  }
+
+  /*   2 Navbar  */
+  .header-scrolled {
+    height: auto;
+  }
+
+  .header .menu-navbar-nav {
+    text-align: center;
+    background-color: var(--bg-dark-blue);
+    padding-bottom: 15px;
+  }
+
+  .header .nav-item .nav-link {
+    margin-top: 15px;
+  }
+
+  /*   Banner wrapper   */
+  .banner {
+    padding: 200px 0;
+  }
+
+  /*   About   */
+  .about ul.nav-pills {
+    width: 61%;
+    margin: auto;
+  }
+
+  /*   portfolio  */
+  .portfolio .card {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  /*   Custom CSS   */
+
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+
+
+  /*   About   */
+  .about ul.nav-pills {
+    width: 100%;
+    margin: auto;
+    border: 0;
+  }
+
+  .about ul li .nav-link {
+    font-size: 13px;
+  }
+
+  /*   portfolio  */
+  .portfolio .card {
+    min-height: 500px;
+  }
+}
+
+
