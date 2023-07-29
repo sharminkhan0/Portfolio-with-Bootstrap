@@ -90,10 +90,6 @@ You can deploy your project using github free source.
 👤 Sharmin
 
   GitHub: @sharminkhan0
-👤 NoelLincoln
-
-  GitHub: @sharminkhan0
-(back to top)
 
 🔭 Future Features
      [add more interactive buttons and sections]
