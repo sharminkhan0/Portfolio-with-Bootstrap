@@ -293,6 +293,10 @@ p {
 }
 
 /* 5 Services  */
+.services{
+  background: var(--bg-dark-blue);
+}
+
 .services .card {
   background-color: var(--bg-dark-blue);
   cursor: pointer;
@@ -364,7 +368,7 @@ p {
 /*  6 Portfolio  */
 
 .portfolio {
-  background: var(--bg-dark-blue);
+  background: var(--secondary-color-2);
 }
 
 .portfolio .card{
@@ -388,3 +392,35 @@ p {
   background-position: bottom center;
 }
 
+/*  7 Contact   */
+
+.contact {
+  background: var(--gradient-color-2);
+}
+
+.contact .form-control,
+.contact textarea {
+    background-color: transparent;
+    border-color: var(--gray-color);
+    color: var(--text-gray);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px;
+} 
+
+.contact .form-control:hover,
+.contact textarea:hover
+.contact .form-control:focus,
+.contact textarea:focus {
+    border-color: var(--primary-color);
+    color: var(--text-white);
+}
+
+.contact .call_details {
+    color: var(--text-white);
+}
+
+.contact .call_details a {
+    font-weight: 700;
+    color: var(--text-gray);
+}
